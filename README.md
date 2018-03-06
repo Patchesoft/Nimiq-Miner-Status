@@ -15,7 +15,7 @@ Each time you refresh the page, the logfile is parsed. The current data extracte
 To check the status of a server, add the following code:
 
 ```php
-$server1 = new Nimiq("http://www.example.com/nimiq_log_file.log");
+$server1 = new Nimiq("http://www.example.com/logfile.log");
 echo $server1->get_data()->display();
 ```
 
