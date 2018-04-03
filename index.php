@@ -3,23 +3,16 @@ include("Finder.php");
 include("Nimiq.php");
 
 $servers = array(
-	array("http://coin6.patchesoft.com/logfile.log", "Pikachu1"),
-	array("http://coin6.patchesoft.com/logfile.log", "Bulbasaur1"),
-	array("http://coin6.patchesoft.com/logfile.log", "Squirtle1"),
-	array("http://coin6.patchesoft.com/logfile.log", "Charmander1"),
+	array("http://www.example.com/logfile.log", "Pikachu1"),
+	array("http://www.example2.com/logfile.log", "Bulbasaur1"),
+	array("http://www.example3.com/logfile.log", "Squirtle1"),
+	array("http://www.example4.com/logfile.log", "Charmander1"),
 );
 
 $nimiqs = array();
 foreach($servers as $server) {
 	$nimiqs[] = new Nimiq($server[0], $server[1]);
 }
-
-
-/*$server1 = new Nimiq("http://coin6.patchesoft.com/logfile.log", "Pikachu1");
-$server2 = new Nimiq("http://coin6.patchesoft.com/logfile.log", "Bulbasaur1");
-$server3 = new Nimiq("http://coin6.patchesoft.com/logfile.log", "Squirtle1");*/
-//$server2 = new Nimiq("http://www.example2.com/logfile.log");
-
 
 ?>
 <html>
