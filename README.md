@@ -14,7 +14,7 @@ Each time you refresh the page, the logfile is parsed. The current data extracte
 
 ## Setup Nimiq Miner Status
 
-To check the status of a server, add your log file to the array of servers. You should also add a name for each server.
+To check the status of a server, add your log file to the array of servers. You should also add a name for each server in index.php:
 
 ```php
 $servers = array(
