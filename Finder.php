@@ -4,7 +4,7 @@ Class Finder {
 
 	var $after = "";
 
-    /* Find Phrase
+        /* Find Phrase
 	 * 
 	 * Looks for a phrase within a string
 	 *
